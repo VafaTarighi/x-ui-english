@@ -1,3 +1,7 @@
+# x-ui-english
+
+This is an exact translated copy of [vaxilu/x-ui] (https://github.com/vaxilu/x-ui)
+
 # x-ui
 
 xray panel with multi-protocol multi-user support

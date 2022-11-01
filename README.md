@@ -17,7 +17,7 @@ xray panel with multi-protocol multi-user support
 # Install & Upgrade
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/VafaTarighi/x-ui/master/install.sh)
 ```
 
 ## Manual install & upgrade

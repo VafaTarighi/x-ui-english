@@ -183,7 +183,7 @@ check_config() {
 set_port() {
     echo && echo -n -e "Enter the port number [1-65535]: " && read port
     if [[ -z "${port}" ]]; then
-        LOGD "已取消"
+        LOGD "Cancelled"
         before_show_menu
     else
         /usr/local/x-ui/x-ui setting -port ${port}

@@ -35,7 +35,7 @@
                                                     :stroke-color="status.mem.color"
                                                     :percent="status.mem.percent"></a-progress>
                                         <div>
-                                            内存: [[ sizeFormat(status.mem.current) ]] / [[ sizeFormat(status.mem.total) ]]
+                                            Memory: [[ sizeFormat(status.mem.current) ]] / [[ sizeFormat(status.mem.total) ]]
                                         </div>
                                     </a-col>
                                 </a-row>
@@ -47,7 +47,7 @@
                                                     :stroke-color="status.swap.color"
                                                     :percent="status.swap.percent"></a-progress>
                                         <div>
-                                            swap: [[ sizeFormat(status.swap.current) ]] / [[ sizeFormat(status.swap.total) ]]
+                                            Swap: [[ sizeFormat(status.swap.current) ]] / [[ sizeFormat(status.swap.total) ]]
                                         </div>
                                     </a-col>
                                     <a-col :span="12" style="text-align: center">
@@ -55,7 +55,7 @@
                                                     :stroke-color="status.disk.color"
                                                     :percent="status.disk.percent"></a-progress>
                                         <div>
-                                            硬盘: [[ sizeFormat(status.disk.current) ]] / [[ sizeFormat(status.disk.total) ]]
+                                            Hard disk: [[ sizeFormat(status.disk.current) ]] / [[ sizeFormat(status.disk.total) ]]
                                         </div>
                                     </a-col>
                                 </a-row>
